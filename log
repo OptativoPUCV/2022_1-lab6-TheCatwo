@@ -2,3 +2,18 @@ Thu May 12 15:38:07 UTC 2022:
  tests:  0|5
 total_score: 0/70
 4dd594f
+Thu May 12 15:46:19 UTC 2022: 
+ sudoku.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:0:
+sudoku.c: In function ‘get_adj_nodes’:
+sudoku.c:54:9: error: assignment from incompatible pointer type [-Werror=incompatible-pointer-types]
+     list=n->sudo;
+         ^
+sudoku.c:55:5: error: implicit declaration of function ‘push_back’; did you mean ‘pushBack’? [-Werror=implicit-function-declaration]
+     push_back(list);
+     ^~~~~~~~~
+     pushBack
+cc1: all warnings being treated as errors
+Compilation failed
+d6fd0ce
