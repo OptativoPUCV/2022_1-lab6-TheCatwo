@@ -57,7 +57,7 @@ List* get_adj_nodes(Node* n){
     for(a=0; a<9; a++){
       for(b=0; b<9; b++){
         if(i->sudo==0){
-          i->sudo[a][b]=cont;
+          i->sudo=cont;
           cont++;
         }  
       }
