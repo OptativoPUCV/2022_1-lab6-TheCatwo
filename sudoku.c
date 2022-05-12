@@ -50,7 +50,7 @@ int is_valid(Node* n){
   }
   
   for(a=0; a<10; a++){
-    b=n->sudo[a]
+    b=n->sudo[a];
     valida[b]=valida[b]++;
   }
   for (i=0; i<10; i++){
