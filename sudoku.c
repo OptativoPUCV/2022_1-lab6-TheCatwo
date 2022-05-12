@@ -62,7 +62,7 @@ List* get_adj_nodes(Node* n){
         }  
       }
     }
-    pushBack(list, i);
+    pushFront(list, i);
 
     return list;
 }
