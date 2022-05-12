@@ -52,7 +52,7 @@ int is_valid(Node* n){
 List* get_adj_nodes(Node* n){
     List* list=createList();
     if(n==0)
-      n=1;
+      n->sudo=1;
     pushBack(list, n);
     return list;
 }

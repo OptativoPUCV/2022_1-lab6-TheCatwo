@@ -87,3 +87,13 @@ sudoku.c:55:8: error: assignment makes pointer from integer without a cast [-Wer
 cc1: all warnings being treated as errors
 Compilation failed
 aeafdf7
+Thu May 12 15:52:53 UTC 2022: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+sudoku.c: In function ‘get_adj_nodes’:
+sudoku.c:55:14: error: assignment to expression with array type
+       n->sudo=1;
+              ^
+Compilation failed
+b893d77
