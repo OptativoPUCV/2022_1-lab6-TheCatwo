@@ -44,14 +44,16 @@ void print_node(Node* n){
 }
 
 int is_valid(Node* n){
-
+   
     return 1;
 }
 
 
 List* get_adj_nodes(Node* n){
     List* list=createList();
-    pushBack(list, n);
+    Node* i=(Node*) malloc(sizeof(Node));
+    i=copy(n);
+    pushBack(list, i);
 
     return list;
 }
