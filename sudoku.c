@@ -60,8 +60,8 @@ List* get_adj_nodes(Node* n){
           for (cont=1;cont<10;cont++){
             i->sudo[a][b]=cont;
             pushBack(list, i);
+            pushBack(list, n);
           } 
-          pushBack(list, n);
           cont=1;
         }  
       }
