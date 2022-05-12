@@ -227,3 +227,14 @@ sudoku.c:60:18: error: assignment to expression with array type
                   ^
 Compilation failed
 96739f1
+Thu May 12 16:29:12 UTC 2022: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+sudoku.c: In function ‘get_adj_nodes’:
+sudoku.c:60:12: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+           i=cont;
+            ^
+cc1: all warnings being treated as errors
+Compilation failed
+571d4b1
