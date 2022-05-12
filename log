@@ -123,3 +123,17 @@ Thu May 12 15:54:00 UTC 2022:
  tests:  0|5
 total_score: 0/70
 a5db533
+Thu May 12 15:55:05 UTC 2022: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+sudoku.c: In function ‘get_adj_nodes’:
+sudoku.c:55:5: error: too many arguments to function ‘popBack’
+     popBack(list, n);
+     ^~~~~~~
+In file included from test.c:4:0:
+list.h:21:6: note: declared here
+ void popBack(List* list);
+      ^~~~~~~
+Compilation failed
+9b77cfe
