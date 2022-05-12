@@ -565,3 +565,8 @@ sudoku.c:53:6: error: assignment makes integer from pointer without a cast [-Wer
 cc1: all warnings being treated as errors
 Compilation failed
 033e8c4
+Thu May 12 22:05:24 UTC 2022: 
+ sudoku.c | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+ tests:  0|0
+89992f8
