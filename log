@@ -523,3 +523,20 @@ sudoku.c:47:13: error: variable ‘b’ set but not used [-Werror=unused-but-set
 cc1: all warnings being treated as errors
 Compilation failed
 fe8841d
+Thu May 12 22:03:07 UTC 2022: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+sudoku.c: In function ‘is_valid’:
+sudoku.c:53:6: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+     b=n->sudo[a]
+      ^
+sudoku.c:54:5: error: expected ‘;’ before ‘valida’
+     valida[b]=valida[b]++;
+     ^~~~~~
+sudoku.c:47:13: error: variable ‘b’ set but not used [-Werror=unused-but-set-variable]
+   int i, a, b, valida[9];
+             ^
+cc1: all warnings being treated as errors
+Compilation failed
+eea7daa
