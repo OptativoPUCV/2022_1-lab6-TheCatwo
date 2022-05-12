@@ -59,7 +59,7 @@ List* get_adj_nodes(Node* n){
         if(i->sudo[a][b]==0){
           cont++;
           i->sudo[a][b]=cont;  
-          pushBack(list, i);
+          pushFront(list, i);
         
         }  
       }
