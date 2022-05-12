@@ -198,3 +198,17 @@ sudoku.c:57:14: error: assignment to expression with array type
               ^
 Compilation failed
 3d86847
+Thu May 12 16:26:33 UTC 2022: 
+ sudoku.c | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+sudoku.c: In function ‘get_adj_nodes’:
+sudoku.c:59:9: error: this ‘if’ clause does not guard... [-Werror=misleading-indentation]
+         if(i->sudo[a][b]==0)
+         ^~
+sudoku.c:61:11: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+           cont++;
+           ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+c06b3b2
