@@ -53,6 +53,7 @@ List* get_adj_nodes(Node* n){
     List* list=createList();
     pushBack(list, n);
     next(list);
+    pushBack(list, n);
     return list;
 }
 
