@@ -601,3 +601,21 @@ Thu May 12 22:09:00 UTC 2022:
  tests:  2|4
 total_score: 15/70
 9aad16f
+Thu May 12 22:13:18 UTC 2022: 
+ sudoku.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:0:
+sudoku.c: In function ‘is_valid’:
+sudoku.c:47:3: error: ‘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’ undeclared (first use in this function)
+   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
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sudoku.c:47:3: note: each undeclared identifier is reported only once for each function it appears in
+sudoku.c:48:3: error: expected ‘;’ before ‘return’
+   return 1;
+   ^~~~~~
+sudoku.c:49:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+1a2c888
