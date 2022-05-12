@@ -53,6 +53,9 @@ List* get_adj_nodes(Node* n){
     List* list=createList();
     Node* i=(Node*) malloc(sizeof(Node));
     i=copy(n);
+    if(i->sudo==0){
+      i->sudo=1;
+    }
     pushBack(list, i);
 
     return list;

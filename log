@@ -188,3 +188,13 @@ Thu May 12 16:04:16 UTC 2022:
  tests:  0|5
 total_score: 0/70
 ed06077
+Thu May 12 16:07:45 UTC 2022: 
+ sudoku.c | 3 +++
+ 1 file changed, 3 insertions(+)
+In file included from test.c:5:0:
+sudoku.c: In function ‘get_adj_nodes’:
+sudoku.c:57:14: error: assignment to expression with array type
+       i->sudo=1;
+              ^
+Compilation failed
+3d86847
