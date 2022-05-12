@@ -60,6 +60,7 @@ List* get_adj_nodes(Node* n){
           cont++;
           i->sudo[a][b]=cont;  
           pushBack(list, i);
+          next(list);
         }  
       }
     }
