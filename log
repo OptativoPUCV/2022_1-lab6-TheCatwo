@@ -76,3 +76,14 @@ Thu May 12 15:52:18 UTC 2022:
  tests:  0|5
 total_score: 0/70
 bd96a99
+Thu May 12 15:52:39 UTC 2022: 
+ sudoku.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:0:
+sudoku.c: In function ‘get_adj_nodes’:
+sudoku.c:55:8: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+       n=1;
+        ^
+cc1: all warnings being treated as errors
+Compilation failed
+aeafdf7
